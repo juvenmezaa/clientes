@@ -1,0 +1,3 @@
+function otraDireccion(){
+	$("#divCalle").after("<div class='form-group col-xs-2'><label for='pais'>Pais</label><input type='text' class='form-control' name='pais[]' required></div><div class='form-group col-xs-2'><label for='estado'>Estado</label><input type='text' class='form-control' name='estado[]' required></div><div class='form-group col-xs-2'><label for='ciudad'>Ciudad</label><input type='text' class='form-control' name='ciudad[]' required></div><div class='form-group col-xs-2'><label for='colonia'>Colonia</label><input type='text' class='form-control' name='colonia[]' required></div><div class='form-group col-xs-3' id='divCalle'><label for='calle'>Calle</label><input type='text' class='form-control' name='calle[]' required></div>");
+}
